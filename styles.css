@@ -1,7 +1,7 @@
 html{
-  background-color: #000000;
+  background-image: linear-gradient(to right, pink , purple, black, orange);
 }
 h1{
-  color: pink;
+  color: white;
   text-align: center;
 }
