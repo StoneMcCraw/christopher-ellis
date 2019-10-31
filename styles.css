@@ -4,15 +4,19 @@ html, body {
 
 body {
   margin: 0;
-  background-color: #282828;
+  background-color: #404040;
 }
 
 /* Style the navbar */
 .navbar {
   overflow: hidden;
-  background-color: #181818;
+  background-color: #404040;
   position: sticky;
   z-index: 10;
+  background:transparent;
+ background-image:none;
+ border-color:transparent;
+ box-shadow:none;
 }
 
 /* Navbar links */
@@ -22,6 +26,7 @@ body {
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  font-family: Trattatello, fantasy	;
 }
 
 /* Page content */
