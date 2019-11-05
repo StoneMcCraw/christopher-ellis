@@ -26,7 +26,7 @@ body {
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  font-family: Trattatello, fantasy	;
+  font-family: 'Playfair Display SC';
 }
 
 /* Page content */
@@ -109,4 +109,7 @@ iframe {
   position: center;
   padding-left: 150px;
   padding-right: 150px;
+}
+.hero-image{
+  background-image: url("C:\Users\stone.mccraw\Documents\GitHub\christopher-ellis\img\stars.jpg");
 }
