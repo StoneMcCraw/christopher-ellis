@@ -105,11 +105,23 @@ iframe {
   clear: both;
 }
 
-.calendar {
-  position: center;
-  padding-left: 150px;
-  padding-right: 150px;
+.Calendar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-image{
   background-image: url("C:\Users\stone.mccraw\Documents\GitHub\christopher-ellis\img\stars.jpg");
+}
+/*footer start here*/
+footer{
+  width: 100%;
+  background-color: black;
+  padding: 3%;
+}
+
+.fa {
+  font-size: 50px;
+  color: #FFF;
+  padding: 3%;
 }
