@@ -29,23 +29,6 @@ body {
   border-color:transparent;
 }
 
-/* Page content */
-.content {
-  padding: 16px;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky .content {
-  padding-top: 60px;
-}
-
 .nav-link {
   text-align: center;
 }
@@ -93,22 +76,11 @@ iframe {
   padding-top: 60px;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-}
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 .Calendar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+padding: 0px 0px 0px 85px;
 }
 
 /*footer start here*/
@@ -124,14 +96,11 @@ footer{
   padding: 3%;
 }
 
-style{
-  position: fixed;
-}
 
 .gallery {
   padding-top: 500px;
 
 }
 .family{
-  padding: 5px 5px 5px 5px;
+
 }
