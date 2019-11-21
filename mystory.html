@@ -23,6 +23,20 @@
       background-attachment: fixed;
       background-size: cover;
     }
+
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
   </style>
 
 </head>
@@ -130,6 +144,8 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+
+
   <div class="row">
     <div class="column"></div>
     <div class="column">

@@ -1,10 +1,10 @@
-html, body {
+html {
   height: 100%;
 }
 
 body {
   margin: 0;
-  background-color: #;
+  height: 100%;
 }
 
 /* Style the navbar */
@@ -13,9 +13,9 @@ body {
   position: sticky;
   z-index: 10;
   background:transparent;
- background-image:none;
- border-color:transparent;
- box-shadow:none;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
 }
 
 /* Navbar links */
@@ -89,7 +89,7 @@ footer{
   background-color: black;
   padding: 3%;
 }
-
+/*this is for the google and twitter links*/
 .fa {
   font-size: 50px;
   color: #FFF;
@@ -98,7 +98,7 @@ footer{
 
 
 .gallery {
-  padding-top: 500px;
+  padding-top: 350px;
 
 }
 
@@ -112,11 +112,17 @@ footer{
 .column {
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
+  padding: 0 px;
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: px;
   vertical-align: middle;
   width: 100%;
+}
+/* This is for the 4 images on the pricing page*/
+.pricing-images {
+  padding: 10px 30px 10px 20px;
+  max-width: 100px;
+  max-height: 150px;
 }

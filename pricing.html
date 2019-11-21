@@ -21,8 +21,27 @@
     background-attachment: fixed;
     background-size: cover;
   }
+
+
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
   </style>
 </head>
+
+
+
 <body>
 
   <header>
@@ -59,17 +78,20 @@
     </nav>
   </header>
 
+
+<div class="pricingbrug">
+
   <div class="container-fluid">
   	<div class="row">
   		<div class="col-md-4">
   			<div class="row">
-  				<div class="col-md-12">
-  					<img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+  				<div class="col-md-12 pricing-images">
+  					<img alt="Bootstrap Image Preview" src="img/Family1/CLE_9269.jpg" />
   				</div>
   			</div>
   			<div class="row">
-  				<div class="col-md-12">
-  					<img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+  				<div class="col-md-12 pricing-images">
+  					<img alt="Bootstrap Image Preview" src="img/Family1/CLE_9264.jpg" />
   				</div>
   			</div>
   		</div>
@@ -88,13 +110,13 @@
   		</div>
   		<div class="col-md-4">
   			<div class="row">
-  				<div class="col-md-12">
-  					<img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+  				<div class="col-md-12 pricing-images">
+  					<img alt="Bootstrap Image Preview" src="img/Family1/CLE_9265.jpg" />
   				</div>
   			</div>
   			<div class="row">
-  				<div class="col-md-12">
-  					<img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+  				<div class="col-md-12 pricing-images">
+  					<img alt="Bootstrap Image Preview" src="img/Family1/CLE_9264.jpg" />
   				</div>
   			</div>
   		</div>
@@ -205,7 +227,7 @@
 
 
 
-
+</div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
