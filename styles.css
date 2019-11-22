@@ -5,6 +5,9 @@ html {
 body {
   margin: 0;
   height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Style the navbar */
@@ -12,21 +15,21 @@ body {
   overflow: hidden;
   position: sticky;
   z-index: 10;
-  background:transparent;
-  background-image:none;
-  border-color:transparent;
-  box-shadow:none;
+  background: transparent;
+  background-image: none;
+  border-color: transparent;
+  box-shadow: none;
 }
 
 /* Navbar links */
 .navbar a {
-  color: #f2f2f2;
+  color: #000000;
   text-align: center;
   padding: 14px;
   text-decoration: none;
   font-family: 'Playfair Display SC';
-  background:transparent;
-  border-color:transparent;
+  background: transparent;
+  border-color: transparent;
 }
 
 .nav-link {
@@ -76,19 +79,17 @@ iframe {
   padding-top: 60px;
 }
 
-
-
-
 .Calendar {
-padding: 0px 0px 0px 85px;
+  padding: 0px 0px 0px 85px;
 }
 
 /*footer start here*/
-footer{
+footer {
   width: 100%;
   background-color: black;
   padding: 3%;
 }
+
 /*this is for the google and twitter links*/
 .fa {
   font-size: 50px;
@@ -96,16 +97,14 @@ footer{
   padding: 3%;
 }
 
-
 .gallery {
   padding-top: 350px;
-
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -120,9 +119,33 @@ footer{
   vertical-align: middle;
   width: 100%;
 }
+
 /* This is for the 4 images on the pricing page*/
 .pricing-images {
-  padding: 10px 30px 10px 20px;
-  max-width: 100px;
-  max-height: 150px;
+  padding: 10px 0px;
+}
+
+.pricingpage {
+  padding-top: 200px;
+}
+
+/*center image*/
+.center-image {
+  padding-top: 200px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
