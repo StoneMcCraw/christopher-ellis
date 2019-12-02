@@ -158,3 +158,11 @@ footer {
     height:100%;
     background-color:#fff;
  }
+
+th {
+  color: white;
+}
+
+td {
+  color: white;
+}
