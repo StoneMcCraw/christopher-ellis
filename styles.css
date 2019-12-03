@@ -159,12 +159,8 @@ footer {
     background-color:#fff;
  }
 
-th {
-  color: white;
-}
-
-td {
-  color: white;
+.button2{
+  position: absolute;
 }
  /* This is where the CSS for the camera flash starts*/
 html,
