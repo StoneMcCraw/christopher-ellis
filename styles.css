@@ -23,7 +23,7 @@ body {
 
 /* Navbar links */
 .navbar a {
-  color: #000000;
+  color: #000000 ;
   text-align: center;
   padding: 14px;
   text-decoration: none;
@@ -165,4 +165,42 @@ th {
 
 td {
   color: white;
+}
+ /* This is where the CSS for the camera flash starts*/
+html,
+body {
+  min-height: 100%;
+  background: #000000;
+}
+
+.flash {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+
+  &.is-flashing {
+    animation-name: flash;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+
+  3% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: .75;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
