@@ -23,7 +23,7 @@ body {
 
 /* Navbar links */
 .navbar a {
-  color: #000000 ;
+  color: #000000;
   text-align: center;
   padding: 14px;
   text-decoration: none;
@@ -55,17 +55,16 @@ h1 {
 }
 
 /*This is the CSS for the google calendar*/
-
- .googleCalendar {
+.googleCalendar {
   position: relative;
   height: 100%;
   top: 100px;
   left: 9em;
   width: 90%;
   margin: 30px;
- }
+}
 
- .googleCalendar iframe{
+.googleCalendar iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -90,57 +89,50 @@ h1 {
   padding-top: 60px;
 }
 
-
 /*footer start here*/
 footer {
   width: 100%;
   background-color: white;
-  padding: 3%;
-}
+  padding top: inherit;
 
-/*this is for the google and twitter links*/
-.fa {
-  font-size: 50px;
-  color: #FFF;
-  padding: 3%;
-}
+  /*this is for the google and twitter links*/
+  .fa {
+    font-size: 50px;
+    color: #FFF;
+    padding: 3%;
+  }
 
-.gallery {
-  padding-top: 350px;
-}
+  .gallery {
+    padding-top: 350px;
+  }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 px;
-}
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 px;
+  }
 
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 px;
-}
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 px;
+  }
 
-.column img {
-  margin-top: px;
-  vertical-align: middle;
-  width: 100%;
-}
+  .column img {
+    margin-top: px;
+    vertical-align: middle;
+    width: 100%;
+  }
 
-/* This is for the 4 images on the pricing page*/
-.pricing-images {
-  padding: 10px 0px;
-}
+  /* This is for the 4 images on the pricing page*/
+  .pricing-images {
+    padding: 10px 0px;
+  }
 
-.pricingpage {
-  padding-top: 200px;
-}
-
-/*center image*/
-.center-image {
-  padding-top: 200px;
-}
+  .pricingpage {
+    padding-top: 200px;
+  }
 
 .flash{
     position:fixed;
@@ -151,29 +143,25 @@ footer {
     background-color:#fff;
  }
 
-.button2{
-  position: absolute;
-}
- /* This is where the CSS for the camera flash starts*/
-html,
-body {
-  min-height: 100%;
-  background: #000000;
-}
-
-.flash {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: #fff;
-  opacity: 0;
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
-
-  &.is-flashing {
-    animation-name: flash;
+  .flash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
   }
-}
+
+  .button2 {
+    position: absolute;
+  }
+
+  /* This is where the CSS for the camera flash starts*/
+  html,
+  body {
+    min-height: 100%;
+    background: #000000;
+  }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -195,17 +183,28 @@ body {
 @keyframes flash {
   0% {
     opacity: 0;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+
+    &.is-flashing {
+      animation-name: flash;
+    }
   }
 
-  3% {
-    opacity: 1;
-  }
+  @keyframes flash {
+    0% {
+      opacity: 0;
+    }
 
-  60% {
-    opacity: .75;
-  }
+    3% {
+      opacity: 1;
+    }
 
-  100% {
-    opacity: 0;
+    60% {
+      opacity: .75;
+    }
+
+    100% {
+      opacity: 0;
+    }
   }
-}
