@@ -55,11 +55,20 @@ h1 {
 }
 
 /*This is the CSS for the google calendar*/
-iframe {
-  padding-left: 50px;
-  padding-right: 0px;
-  padding-top: 100px;
-  padding-bottom: 0px;
+
+ .googleCalendar {
+  position: relative;
+  height: 0;
+  width: 50%;
+  padding-bottom: 50%;
+ }
+
+ .googleCalendar iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Page content */
@@ -79,9 +88,6 @@ iframe {
   padding-top: 60px;
 }
 
-.Calendar {
-  padding: 0px 0px 0px 85px;
-}
 
 /*footer start here*/
 footer {
