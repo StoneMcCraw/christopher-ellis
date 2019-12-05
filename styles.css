@@ -91,9 +91,17 @@ h1 {
 
 /*footer start here*/
 footer {
-  width: 100%;
-  background-color: white;
-  padding top: inherit;
+  width: 80%;
+  background-color: black;
+  padding: 2%;
+}
+
+/*this is for the google and twitter links*/
+.fa {
+  font-size: 50px;
+  color: #FFF;
+  padding: 3%;
+}
 
   /*this is for the google and twitter links*/
   .fa {
@@ -207,4 +215,5 @@ footer {
     100% {
       opacity: 0;
     }
+
   }
