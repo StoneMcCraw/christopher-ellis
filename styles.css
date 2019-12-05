@@ -94,6 +94,7 @@ footer {
   width: 80%;
   background-color: black;
   padding: 2%;
+  color: white;
 }
 
 /*this is for the google and twitter links*/
@@ -160,16 +161,11 @@ footer {
     background-color: #fff;
   }
 
-  .button2 {
-    position: absolute;
-  }
+.story{
+  padding-top: 200px;
+}
 
-  /* This is where the CSS for the camera flash starts*/
-  html,
-  body {
-    min-height: 100%;
-    background: #000000;
-  }
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
