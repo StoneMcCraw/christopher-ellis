@@ -59,7 +59,7 @@ h1 {
   position: relative;
   height: 100%;
   top: 100px;
-  left: 9em;
+  left: 12em;
   width: 80%;
   margin: 30px;
 }
@@ -69,7 +69,7 @@ h1 {
   top: 0;
   left: 0;
   width: 90%;
-  height: 70%;
+  height: 80%;
 }
 
 /* Page content */
