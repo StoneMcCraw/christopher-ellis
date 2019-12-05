@@ -167,6 +167,38 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -213,6 +245,3 @@ footer {
     }
 
   }
-.paragrah1{
-  text-size: 75px;
-}
