@@ -132,6 +132,7 @@ footer {
     margin-top: px;
     vertical-align: middle;
     width: 100%;
+
   }
 
   /* This is for the 4 images on the pricing page*/
@@ -165,7 +166,9 @@ footer {
   padding-top: 200px;
 }
 
-
+.story1 {
+  image-orientation: center;
+}
 
 
 
