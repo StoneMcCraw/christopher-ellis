@@ -104,65 +104,79 @@ footer {
   padding: 3%;
 }
 
-  /*this is for the google and twitter links*/
-  .fa {
-    font-size: 50px;
-    color: #FFF;
-    padding: 3%;
-  }
+/*this is for the google and twitter links*/
+.fa {
+  font-size: 50px;
+  color: #FFF;
+  padding: 3%;
+}
 
-  .gallery {
-    padding-top: 350px;
-  }
+.gallery {
+  padding-top: 350px;
+}
 
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px;
-  }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
 
-  /* Create four equal columns that sits next to each other */
-  .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 px;
-  }
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 px;
+}
 
-  .column img {
-    margin-top: px;
-    vertical-align: middle;
-    width: 100%;
+.column img {
+  margin-top: px;
+  vertical-align: middle;
+  width: 100%;
+}
 
-  }
+/* This is for the 4 images on the pricing page*/
+.pricing-images {
+  padding-top: 50px;
+  image-orientation: center;
+  padding-bottom: 50px;
+}
+.pricing-images1 {
+  padding-top: 50px;
+  image-orientation: center;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
 
-  /* This is for the 4 images on the pricing page*/
-  .pricing-images {
-    padding: 10px 0px;
-  }
+.pricing {
+  padding-top: 50px;
+  image-orientation: center;
+}
 
-  .pricingpage {
-    padding-top: 200px;
-  }
+.center-image {
+  padding-top: 250px;
+  image-orientation: center;
+  padding-left: 30px;
+}
 
-.flash{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background-color:#fff;
- }
+.flash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
 
-  .flash {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-  }
+.flash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
 
-.story{
+.story {
   padding-top: 200px;
 }
 
@@ -170,38 +184,6 @@ footer {
   image-orientation: center;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -218,7 +200,6 @@ footer {
     max-width: 100%;
   }
 }
-
 
 @keyframes flash {
   0% {
@@ -247,5 +228,4 @@ footer {
     100% {
       opacity: 0;
     }
-
   }
