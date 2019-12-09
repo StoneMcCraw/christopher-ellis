@@ -202,10 +202,14 @@ footer {
   color: black;
 }
 
+body, html {
+  height: 100%;
+}
 
-
-
-
+.logo6{
+  width: 100%;
+ height: auto;
+}
 
 
 
