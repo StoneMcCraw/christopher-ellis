@@ -88,28 +88,6 @@ h1 {
   padding-top: 60px;
 }
 
-/*footer start here*/
-footer {
-  width: 80%;
-  background-color: black;
-  padding: 2%;
-  color: white;
-}
-
-/*this is for the google and twitter links*/
-.fa {
-  font-size: 50px;
-  color: #FFF;
-  padding: 3%;
-}
-
-/*this is for the google and twitter links*/
-.fa {
-  font-size: 50px;
-  color: #FFF;
-  padding: 3%;
-}
-
 .gallery {
   padding-top: 350px;
 }
@@ -136,14 +114,14 @@ footer {
 /* This is for the 4 images on the pricing page*/
 .pricing-images {
   padding-top: 50px;
-  image-orientation: center;
   padding-bottom: 50px;
+  padding-left: 100px;
 }
+
 .pricing-images1 {
   padding-top: 50px;
-  image-orientation: center;
   padding-bottom: 50px;
-  padding-left: 40px;
+  padding-left: 100px;
 }
 
 .pricing {
@@ -152,9 +130,9 @@ footer {
 }
 
 .center-image {
-  padding-top: 250px;
+  padding-top: 180px;
   image-orientation: center;
-  padding-left: 30px;
+  padding-left: 150px;
 }
 
 .flash {
@@ -184,14 +162,14 @@ footer {
   text-align: center;
 }
 
-.idk{
+.idk {
   font-size: 30px;
   top: 22em;
   margin-top: 5em;
   color: black;
 }
 
-.idk2{
+.idk2 {
   font-size: 30px;
   font-weight: 350px;
   top: 22em;
@@ -203,35 +181,80 @@ body, html {
   height: 100%;
 }
 
-.logo6{
+.logo6 {
   width: 100%;
- height: auto;
+  height: auto;
 }
 
+* {
+  box-sizing: border-box;
+}
 
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
 
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
 
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
 
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
 
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
 
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
 
+.packages1 {
+  color: white;
+}
 
+.packages2 {
+  color: white;
+}
 
+.packages3 {
+  color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*footer start here*/
+footer {
+  width: 80%;
+  background-color: black;
+  padding: 2%;
+  color: white;
+}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -275,5 +298,11 @@ body, html {
 
     100% {
       opacity: 0;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
     }
   }
