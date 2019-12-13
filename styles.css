@@ -88,7 +88,6 @@ h1 {
   padding-top: 60px;
 }
 
-
 /*footer start here*/
 footer {
   width: 80%;
@@ -103,7 +102,6 @@ footer {
   color: #FFF;
   padding: 3%;
 }
-
 
 .gallery {
   padding-top: 350px;
@@ -170,9 +168,7 @@ footer {
   background-color: #fff;
 }
 
-.story {
-  padding-top: 200px;
-}
+
 
 .story1 {
   image-orientation: center;
@@ -272,6 +268,18 @@ footer {
   padding: 2%;
   color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
