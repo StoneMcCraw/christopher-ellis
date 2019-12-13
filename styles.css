@@ -88,6 +88,23 @@ h1 {
   padding-top: 60px;
 }
 
+
+/*footer start here*/
+footer {
+  width: 80%;
+  background-color: black;
+  padding: 2%;
+  color: white;
+}
+
+/*this is for the google and twitter links*/
+.fa {
+  font-size: 50px;
+  color: #FFF;
+  padding: 3%;
+}
+
+
 .gallery {
   padding-top: 350px;
 }
